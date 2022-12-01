@@ -1,13 +1,14 @@
 h1{
     font-size: 4em;
-    color: darkred;
+    color: red;
     background-color: aliceblue;
     border-style: solid;
 }
 h2{
     font-size: 3em;
-    color: darkslateblue;
+    color: red;
 }
 h3{
+    color: red;
     font-size: 2em;
 }
