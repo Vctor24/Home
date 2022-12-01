@@ -1,0 +1,12 @@
+h1{
+    font-size: 4em;
+    color: darkred;
+    background-color: aliceblue;
+    border-style: solid;
+}
+h2{
+    font-size: 3em;
+}
+h3{
+    font-size: 2em;
+}
