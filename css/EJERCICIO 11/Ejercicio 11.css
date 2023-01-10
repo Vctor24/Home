@@ -1,0 +1,11 @@
+ol.romanos {
+    list-style-type: upper-roman;
+    list-style-position: outside;
+}
+ul.logos {
+    list-style: square inside url("descarga.png");
+}
+li.logos {
+    list-style-position:inside;
+    align-items: center;
+}
