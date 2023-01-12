@@ -1,6 +1,33 @@
-.todo{
-    background-color: bisque;
+
+.cuerpo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
 }
 .izquierda{
     width: 20%;
+    float:left;
+    background-color: khaki;
+}
+.derecha{
+    float:right;
+    width: 79%;
+    overflow-y: scroll;
+    background-color: aqua;
+    padding-left: 10px;
+}
+h2{
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    padding-top: 10px;
+    text-align: center;
+    height: 100px;
+    background-color: darkblue;
+    color: white;
 }
