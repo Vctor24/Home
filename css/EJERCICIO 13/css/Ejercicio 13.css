@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+header{
+    width: 100%;
+    text-align: center;
+    background-color: deepskyblue;
+    margin-top: 1em;
+}
+#navegacion{
+    width: 100%;
+    text-align: center;
+    background-color: darkviolet;
+    margin-top: 0.3em;
+}
+
+li{
+    display: inline;
+    padding: 1em;
+}
+a:hover{
+    color: chartreuse;
+}
+a{
+     text-decoration: none;
+     color: white;
+}
+#cuerpo{
+    overflow-y: scroll;
+    height: 125px;
+    background-color: blanchedalmond;
+    margin-top: 0.5em;
+    padding: 1em;
+}
+footer{
+    background-color: chartreuse;
+    margin-top: 1em;
+}
