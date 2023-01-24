@@ -1,0 +1,17 @@
+#columna{
+    height: auto;
+    width: 20%;
+    
+    background-color: #eee;
+}
+#columna a{
+    text-align: center;
+    background-color: #eee;
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+}
+#columna a:hover{
+    background-color: #ccc;
+}
