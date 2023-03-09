@@ -1,0 +1,58 @@
+body{
+    font-family: Verdana;
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 20px;
+    color: white;
+    text-align: left;
+    background: black;
+    font-size: 2em;
+}
+nav{
+    display: flex;
+
+    justify-content: flex-start;
+    background: #CCC;
+}
+
+nav a{
+    color: #555;
+    text-decoration: none;
+    padding: 15px;
+}
+nav a:hover{
+    background: #555;
+    color: #CCCCCC;
+}
+#tarjeta1{
+    background: #FFF;
+    text-align: center;
+}
+#tarjeta2{
+    background: #FFF;
+    text-align: center;
+}
+#tarjeta3{
+    background: #FFF;
+    text-align: center;
+}
+#tarjeta4{
+    background: #FFF;
+    text-align: center;
+}
+main{
+    background: rgb(133, 124, 124);
+}
+main div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-items: center;
+}
+main div article{
+    padding: 5px;
+    border: solid 1px black;
+    margin: 10px;
+}
