@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mensaje xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio1Schema.xsd">
+  <remitente>
+    <nombre/>
+    <email/>
+  </remitente>
+  <destinatario>
+    <nombre/>
+    <email/>
+  </destinatario>
+  <asunto/>
+  <texto>
+    <parrafo/>
+  </texto>
+</mensaje>
