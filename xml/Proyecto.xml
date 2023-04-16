@@ -1,59 +1,74 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<curriculum>
+<curriculum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Proyecto.xsd">
   <datosPersonales>
-    <nombre></nombre>
-    <apellidos></apellidos>
-    <fecha></fecha>
-    <lugarNacimiento></lugarNacimiento>
-    <nacionalidades></nacionalidades>
-    <nif></nif>
+    <nombre>Victor</nombre>
+    <apellidos>Chaves Arenas</apellidos>
+    <fechaNacimiento>2004-03-24</fechaNacimiento>
+    <lugarNacimiento>Marbella</lugarNacimiento>
+   <nacionalidad>Español</nacionalidad>
+    <nif>789654127T</nif>
     <foto>fotito.jpg</foto>
   </datosPersonales>
   <datosContacto>
-    <tipoVia></tipoVia>
-    <nombreVia></nombreVia>
-    <numero></numero>
-    <portal></portal>
-    <escalera></escalera>
-    <piso></piso>
-    <puerta></puerta>
-    <codigoPostal></codigoPostal>
-    <pais></pais>
-    <email></email>
-    <movil></movil>
-    <fijo></fijo>
+    <tipoVia>Calle</tipoVia>
+    <nombreVia>Camino del aeropuerto</nombreVia>
+    <numero>15</numero>
+    <portal>No</portal>
+    <escalera>No</escalera>
+    <piso>No</piso>
+    <puerta>No</puerta>
+    <codigoPostal>18620</codigoPostal>
+    <pais>España</pais>
+    <email>myemail@email.com</email>
+    <movil>646178987</movil>
+    <fijo>958887744</fijo>
   </datosContacto>
   <datosContactoAdicionales>
-    <web></web>
+    <web>No</web>
     <redesSociales>
-      <instagram></instagram>
-      <twitter></twitter>
+      <instagram>victoor__04</instagram>
+      
+      <facebook>No</facebook>
     </redesSociales>
   </datosContactoAdicionales>
   <formacionAcademica>
-    <nombre></nombre>
-    <lugar></lugar>
-    <fechaInicio></fechaInicio>
-    <fechaFin></fechaFin>
+    <nombre>Bachillerato</nombre>
+    <lugar>IES Alhendin</lugar>
+    <fechaInicio>2019-09-15</fechaInicio>
+    <fechaFin>2022-06-25</fechaFin>
   </formacionAcademica>
+  
   <idiomas>
-    <nombre></nombre>
-    <expresionOral>
-      <nivel></nivel>
-      <nivelComprension></nivelComprension>
-    </expresionOral>
-    <expresionEscrita>
-      <nivel></nivel>
-      <nivelComprension></nivelComprension>
-    </expresionEscrita>
-    <tituloAcreditativo></tituloAcreditativo>
-    <nivelTitulo></nivelTitulo>
-    <nivelExpresionEscrita></nivelExpresionEscrita>
+    <idioma>
+      <nombre>Ingles</nombre>
+      <Oral>
+        <nivelExpresion>B1</nivelExpresion>
+        <nivelComprension>B2</nivelComprension>
+      </Oral>
+      <Escrita>
+        <nivelExpresion>B1</nivelExpresion>
+        <nivelComprension>B1</nivelComprension>
+      </Escrita>
+      <tituloAcreditativo>Titulo.pdf</tituloAcreditativo>
+      <nivelTitulo>B1</nivelTitulo>
+    </idioma>
   </idiomas>
   <experienciaLaboral>
+    <experiencia>
+      <lugar>Alhendin</lugar>
+      <puesto>Monitor</puesto>
+      <fechaInicio>2022-06-01</fechaInicio>
+      <fechaFin>2022-07-15</fechaFin>
+    </experiencia>
   </experienciaLaboral>
   <competenciasSocioProfesionales>
+    <nombre>Liderazgo</nombre>
+    <nivel>8</nivel>
   </competenciasSocioProfesionales>
   <datosAdicionales>
+    <aficiones>Natacion</aficiones>
+    <disponivilidadViajar>Alta</disponivilidadViajar>
+    <vehiculo>Si</vehiculo>
+    <permisos>B</permisos>
   </datosAdicionales>
 </curriculum>
