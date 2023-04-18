@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <mensaje xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio1Schema.xsd">
   <remitente>
-    <nombre/>
-    <email/>
+    <nombre>Victor</nombre>
+    <email>VictorChaves@gmail.com</email>
   </remitente>
   <destinatario>
-    <nombre/>
-    <email/>
+    <nombre>Adan</nombre>
+    <email>Adan@yahoo.es</email>
   </destinatario>
-  <asunto/>
+  <asunto>Trabajo</asunto>
   <texto>
-    <parrafo/>
+    <parrafo>Informacion sobre el trabajo</parrafo>
+    <parrafo>Parrafo sobre los objetivos</parrafo>
   </texto>
 </mensaje>
