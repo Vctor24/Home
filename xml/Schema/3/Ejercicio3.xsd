@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="cancion">
+    <xs:complexType>
+      <xs:attribute name="duracion" type="xs:string" default="4:47"/>
+      <xs:attribute name="anio" type="xs:integer" default="2008"/>
+      <xs:sequence>
+        <xs:element name="titulo" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="compositores" type="comp" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="productores" type="produc" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="sello" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="artista" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+
+    
+    
+    <xs:complexType name="comp">
+      <xs:sequence>
+        <xs:element name="compositor" type="comp2"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="comp2">
+      <xs:sequence>
+        <xs:element name="nombres" type="xs:string"/>
+        <xs:element name="apellidos" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  <xs:complexType name="produc">
+      <xs:sequence>
+        <xs:element name="productor" type="produc2"/>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="produc2">
+      <xs:sequence>
+        <xs:element name="nombres" type="xs:string"/>
+        <xs:element name="apellidos" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  
+</xs:schema>
